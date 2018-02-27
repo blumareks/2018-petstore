@@ -36,11 +36,6 @@ spec:
           value: "jpetstore"
         - name: "MYSQL_ROOT_PASSWORD"
           value: "foobar"
-      init:
-      scriptSource:
-        gitRepo:
-          repository: "https://github.com/blumareks/2018-petstore.git"
-          directory: .
       ports: 
         - containerPort: 3306
 ```
